@@ -1,0 +1,7 @@
+pi=3.14
+r=float(input("enter the radius:"))
+print("area of the circle "+str(r)+"is:"+str(pi*r**2))
+
+filename=input("input the filename :")
+f_extns=filename.split(".")
+print("the extension of the file is :"+repr(f_extns[-1]))
